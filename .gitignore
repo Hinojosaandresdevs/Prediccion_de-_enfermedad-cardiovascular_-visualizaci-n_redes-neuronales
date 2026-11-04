@@ -1,0 +1,26 @@
+# Datos (se descargan desde Kaggle)
+data/*.csv
+*.csv
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modelos entrenados
+*.h5
+*.keras
+*.pkl
+*.joblib
+
+# Sistema
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
